@@ -1,0 +1,475 @@
+@import url(/styles/universal.css);
+@media screen and (min-width: 1600px) and (max-width: 1925px) {
+  body {
+    font-size: 1.25rem;
+  }
+  .nav-bar {
+    background-color: #060613;
+    height: -moz-fit-content;
+    height: fit-content;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+  }
+  .nav-bar .nav-bar-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    z-index: 999;
+  }
+  .nav-bar .nav-bar-items .logo {
+    width: 16rem;
+  }
+  .nav-bar .nav-bar-items .nav-links {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+    gap: 2vw;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.5 ease-in-out;
+    padding: 10vh;
+    gap: 10vh;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .nav-bar .nav-bar-items .nav-links span {
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+  }
+  .nav-bar .nav-bar-items .nav-links li {
+    opacity: 1;
+    list-style-type: none;
+    list-style: none;
+  }
+  .nav-bar .nav-bar-items .nav-links li a {
+    text-decoration: none;
+    color: #f9f9f9;
+  }
+  .nav-bar .nav-bar-items .nav-links li a:hover {
+    text-transform: uppercase;
+    transition: transform 0.5s ease-in-out;
+  }
+  .nav-bar .nav-bar-items .burger-icon div {
+    height: 0.0625rem;
+    width: 1.5rem;
+    background-color: #f9f9f9;
+    margin: 0.5rem;
+    transition: all 0.5s ease;
+  }
+  .nav-bar .nav-bar-items .burger-icon {
+    display: none;
+    cursor: pointer;
+  }
+  .nav-bar .nav-bar-items .active {
+    font-weight: 700;
+    color: #62617a;
+  }
+  .hero {
+    margin-top: 30vh;
+    font-size: 1.75rem;
+    width: 100%;
+    height: 100vh;
+  }
+  .hero .greeting {
+    margin-bottom: 12.5vh;
+    font-size: 1.125rem;
+  }
+  .hero .cta {
+    margin-top: 25vh;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .hero .cta button {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    color: #f9f9f9;
+    gap: 0.75rem;
+    text-align: center;
+    align-items: center;
+  }
+  .hero .cta button img {
+    height: 2rem;
+    width: 2rem;
+  }
+  /* CARD PROJECTS LISTINGS*/
+  .work {
+    width: 100%;
+  }
+  .work .work-cards-section {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1vw;
+  }
+  .work .work-cards-section .card {
+    width: 49%;
+  }
+  /*NOT DESIGNING*/
+  .not-designing {
+    margin-top: 20vh;
+    height: 90vh;
+    color: #f9f9f9;
+    width: 100%;
+  }
+  .not-designing .code-project-container {
+    width: 100%;
+    margin: 2rem 0;
+    gap: 0.75rem;
+    display: inline-flex;
+    flex-direction: row;
+  }
+  .not-designing .code-project-container .project-card {
+    background-color: #050514;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    width: 100%;
+    font-size: 1.125rem;
+  }
+  .not-designing .code-project-container .project-card .name-of-project {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  .not-designing .code-project-container .project-card .github {
+    width: 100%;
+    font-size: 1.25rem;
+    color: #f9f9f9;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    background-color: #0a0a25;
+    border-radius: 0.75rem;
+  }
+  /* SEND ME EMAIL*/
+  .send-mail {
+    height: 50vw;
+    color: #f9f9f9;
+  }
+  .send-mail h1 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .send-mail .send-mail-paragraph {
+    font-size: 16px;
+    margin-top: 2rem;
+  }
+  .send-mail .email-me {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+  }
+  .send-mail .email-me-cta {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding-top: 1rem;
+  }
+  .send-mail .email-me-cta a {
+    text-decoration: none;
+    color: #f9f9f9;
+    font-size: 1.125rem;
+  }
+  footer {
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+    color: #f9f9f9;
+    position: relative;
+  }
+  footer #logo {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  footer #logo img {
+    width: 5rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  footer .footer-links {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1.5vh;
+    align-items: flex-start;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 2vh 0;
+    font-size: 1.25rem;
+  }
+  footer .footer-links a {
+    text-decoration: none;
+    color: #f9f9f9;
+  }
+  footer .footer-links a:hover {
+    cursor: pointer;
+  }
+  footer .social-icons {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    float: right;
+    top: 0;
+    position: absolute;
+    right: 2vh;
+    gap: 1.5rem;
+  }
+  footer .social-icons img {
+    width: 32px;
+    height: 32px;
+    background-color: #f9f9f9;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+  }
+  footer .copyright {
+    float: right;
+    margin-top: 1rem;
+  }
+}
+@media screen and (min-width: 1925px) {
+  body {
+    font-size: 1.25rem;
+  }
+  .nav-bar {
+    background-color: #060613;
+    height: -moz-fit-content;
+    height: fit-content;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+  }
+  .nav-bar .nav-bar-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    z-index: 999;
+  }
+  .nav-bar .nav-bar-items .logo {
+    width: 16rem;
+  }
+  .nav-bar .nav-bar-items .nav-links {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+    gap: 2vw;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.5 ease-in-out;
+    padding: 2vh;
+    gap: 10vh;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .nav-bar .nav-bar-items .nav-links span {
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+  }
+  .nav-bar .nav-bar-items .nav-links li {
+    opacity: 1;
+    list-style-type: none;
+    list-style: none;
+  }
+  .nav-bar .nav-bar-items .nav-links li a {
+    text-decoration: none;
+    color: #f9f9f9;
+  }
+  .nav-bar .nav-bar-items .nav-links li a:hover {
+    text-transform: uppercase;
+    transition: transform 0.5s ease-in-out;
+  }
+  .nav-bar .nav-bar-items .burger-icon div {
+    height: 0.0625rem;
+    width: 1.5rem;
+    background-color: #f9f9f9;
+    margin: 0.5rem;
+    transition: all 0.5s ease;
+  }
+  .nav-bar .nav-bar-items .burger-icon {
+    display: none;
+    cursor: pointer;
+  }
+  .nav-bar .nav-bar-items .active {
+    font-weight: 700;
+    color: #62617a;
+  }
+  .hero {
+    margin-top: 30vh;
+    font-size: 1.75rem;
+    width: 100%;
+    height: 100vh;
+  }
+  .hero .greeting {
+    margin-bottom: 12.5vh;
+    font-size: 1.125rem;
+  }
+  .hero .cta {
+    margin-top: 25vh;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .hero .cta button {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    color: #f9f9f9;
+    gap: 0.75rem;
+    text-align: center;
+    align-items: center;
+  }
+  .hero .cta button img {
+    height: 2rem;
+    width: 2rem;
+  }
+  /* CARD PROJECTS LISTINGS*/
+  .work {
+    width: 100%;
+  }
+  .work .work-cards-section {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1vw;
+  }
+  .work .work-cards-section .card {
+    width: 49%;
+  }
+  /*NOT DESIGNING*/
+  .not-designing {
+    margin-top: 20vh;
+    height: 90vh;
+    color: #f9f9f9;
+    width: 100%;
+  }
+  .not-designing .code-project-container {
+    width: 100%;
+    margin: 2rem 0;
+    gap: 0.75rem;
+    display: inline-flex;
+    flex-direction: row;
+  }
+  .not-designing .code-project-container .project-card {
+    background-color: #050514;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    width: 100%;
+    font-size: 1.125rem;
+  }
+  .not-designing .code-project-container .project-card .name-of-project {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  .not-designing .code-project-container .project-card .github {
+    width: 100%;
+    font-size: 1.25rem;
+    color: #f9f9f9;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    background-color: #0a0a25;
+    border-radius: 0.75rem;
+  }
+  /* SEND ME EMAIL*/
+  .send-mail {
+    height: 50vw;
+    color: #f9f9f9;
+  }
+  .send-mail h1 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .send-mail .send-mail-paragraph {
+    font-size: 16px;
+    margin-top: 2rem;
+  }
+  .send-mail .email-me {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+  }
+  .send-mail .email-me-cta {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding-top: 1rem;
+  }
+  .send-mail .email-me-cta a {
+    text-decoration: none;
+    color: #f9f9f9;
+    font-size: 1.125rem;
+  }
+  footer {
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+    color: #f9f9f9;
+    position: relative;
+  }
+  footer #logo {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  footer #logo img {
+    width: 5rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  footer .footer-links {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1.5vh;
+    align-items: flex-start;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 2vh 0;
+    font-size: 1.25rem;
+  }
+  footer .footer-links a {
+    text-decoration: none;
+    color: #f9f9f9;
+  }
+  footer .footer-links a:hover {
+    cursor: pointer;
+  }
+  footer .social-icons {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    float: right;
+    top: 0;
+    position: absolute;
+    right: 2vh;
+    gap: 1.5rem;
+  }
+  footer .social-icons img {
+    width: 32px;
+    height: 32px;
+    background-color: #f9f9f9;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+  }
+  footer .copyright {
+    float: right;
+    margin-top: 1rem;
+  }
+}/*# sourceMappingURL=Ldesktop.css.map */

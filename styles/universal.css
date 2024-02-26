@@ -1,0 +1,174 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 92%;
+  margin: 0 auto;
+  content: " ";
+}
+
+:root {
+  background-color: #121212;
+  list-style-type: none;
+  font-size: 16px;
+  color: #e4dbdb;
+}
+
+.primary-cta,
+.secondary-cta {
+  background-color: #0a0a25;
+  border-radius: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 550;
+}
+.primary-cta img,
+.secondary-cta img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.primary-cta a,
+.secondary-cta a {
+  display: inline-flex;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.secondary-cta {
+  background: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a:hover {
+  text-transform: uppercase;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+img {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.work-cards-section {
+  justify-content: space-between;
+  gap: 0.5rem;
+  height: 100%;
+}
+.work-cards-section .card {
+  background-color: #050514;
+  padding: 0.5rem;
+  border-radius: 24px;
+  height: auto;
+  position: relative;
+  color: #f9f9f9;
+}
+.work-cards-section .card img {
+  border-radius: 16px 16px 0 0;
+}
+.work-cards-section .card .project-type {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  display: inline-flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #62617a;
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.work-cards-section .card .project-type .dot {
+  height: 12px;
+  width: 12px;
+  background-color: #033d03;
+  border-radius: 50%;
+}
+.work-cards-section .card .description {
+  width: 100%;
+  align-items: center;
+}
+.work-cards-section .card .name {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+.work-cards-section .card .info {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 8px 0;
+}
+.work-cards-section .card .device {
+  font-size: 16px;
+  display: flex;
+  padding: 8px 0;
+}
+.work-cards-section .card .case-study {
+  margin: 8px 0;
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 0.5rem;
+  height: 48px;
+  color: #0a0a25;
+  background-color: #f9f9f9;
+  width: 100%;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h1,
+h2 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #e4dbdb;
+  font-family: sans-serif;
+  margin: 1rem 0;
+}
+
+.social-icons {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+.social-icons img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=universal.css.map */
