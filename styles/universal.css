@@ -171,4 +171,10 @@ a {
 
 a:hover {
   cursor: pointer;
+}
+
+.portfolio-hero {
+  margin: 4em 0 1rem;
+  background-size: cover;
+  background-position: center;
 }/*# sourceMappingURL=universal.css.map */

@@ -19,29 +19,45 @@
                 </div>
                 <div class="case-study">Case Study</div>
             </div>
-            <div class="image-section"><img src="" alt="project-img" srcset=""></div>
+            <div class="image-section"><img src="/portfolio/images/test.svg" alt="project-img" srcset=""></div>
         </section>
     </div>
 
     <div class="container">
         <div class="problem">
-            <h1>Problem</h1>
+            <h1>Overview</h1>
             <p>Addressing the rising threat of mobile loss in Kenya, 
                 particularly targeting individuals engaged in frequent 
-                mobile money transactions
+                mobile money transactions.
             </p>
         </div>
         <div class="solution">
-            <h1>Solution</h1>
+            <h1>Goal</h1>
             <p>Provide a secure and User-friendly solution that provide
                  a Seemless &amp; Convinient Cashless transactions to those
                   relying on them.
             </p>
         </div>
     </div>
-
+    <div class="container">
+        <div class="role">
+            <H1>My Role</H1>
+            <ul>
+                <li>Ux Research</li>
+                <li>UI Design</li>
+                <li>Userbility Testing</li>
+            </ul>
+        </div>
+    </div>
     <div class="container">
         <div class="research">
+            <H2>Research</H2>
+            <p>
+                I was curious to understand how loosing mobile phones impacted the overal money
+                transaction made by people. So I conducted round up of interviews, including 
+                <strong>surveing a large pool of people relying on mobile money transactions </strong> 
+                as well as people who at one point lost their mobile phones.
+            </p>
             <div class="research-img"><img src="" alt="research-data" srcset=""></div>
         </div>
         <div class="potential-solution"><img src="" alt="potential-solution" srcset=""></div>
