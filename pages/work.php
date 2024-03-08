@@ -19,6 +19,12 @@
             </div>
         </div>
 
+        <!-- Test Card -->
+        <div class="card">
+            <div class="project-img"><img src="/portfolio/images/search image.jpg" alt="Project image" srcset=""type="image/png"></div>
+            <div class="name">Name of Project</div>
+            <button class="case-study"><a href=""><img src="" alt="arrow up side" srcset="">Read Case Study</a></button>
+        </div>
         <!-- CARD TWO -->
         <div class="card">
             <div class="project-img"><img src="/portfolio/images/search image.jpg" alt="Project image" srcset=""type="image/png"></div>

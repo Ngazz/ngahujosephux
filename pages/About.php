@@ -11,7 +11,7 @@
 </head>
 <body>
     <!-- Navbar -->
-    <?php include('navbar.php');?>
+    <?php include('COMPONENT/navbar.php');?>
 
     <div class="container">
 
@@ -62,7 +62,7 @@
         <section class="services">
 
         </section>
-        <?php include('footer.php');?>
+        <?php include('COMPONENTS/footer.php');?>
     </div>
 </body>
 </html>

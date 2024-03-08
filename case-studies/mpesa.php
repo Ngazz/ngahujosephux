@@ -10,7 +10,7 @@
     <title>Case study</title>
 </head>
 <body>
-    <?php include('..\pages\navbar.php'); ?>
+    <?php include('..\pages\COMPONENTS\navbar.php'); ?>
     <div class="container">
         <section class="case-study-hero">
             <div class="project-name">
@@ -80,9 +80,11 @@
     <div class="container">
         <div class="testing">
             <h1>User Testing</h1>
-            <P>Recruited 8 participants and keenly monitored their journey in fulfilling some tasks.
-                  This led to further improvement and settling on this design.
+            <P>
+                Recruited 8 participants and keenly monitored their journey in fulfilling some tasks.
+                This led to further improvement and settling on this design.
             </P>
+            <div class="findings"></div>
         </div>
         <div class="design"><img src="" alt="design-image" srcset=""></div>
     </div>
@@ -92,7 +94,7 @@
             <h1>Looking Back</h1>
             <ul>
                 <li>Wish to have more participants to test with them and guage the performance.</li>
-                <li>Wish to see the full product under development and be made ready to the consumers.</li>
+                <li>Wish to see the full product under development and be made ready to the consumers.</li >
             </ul>
         </div>
         <div class="suggestions">

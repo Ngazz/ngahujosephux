@@ -17,7 +17,7 @@
 <body>
   <!-- Nav Bar -->
   <?php
-        include('navbar.php');
+        include('COMPONENTS/navbar.php');
     ?>
     <div class="container">
       
@@ -31,8 +31,8 @@
                 A Digital Product Designer for Startups &amp; Businesses.
             </div>
             <div class="cta">
-                <button class="primary-cta"><img src="/portfolio/images/eye.svg" alt="eye" type="image/svg"> See Projects</button>
-                <button class="secondary-cta"><img src="/portfolio/images/MESSAGE.SVG" alt="envelop" type="image/svg">Contact Me</button>
+                <button class="primary-cta"><a href="portfolio.php"><img src="/portfolio/images/eye.svg" alt="eye" type="image/svg"> See Projects</button></a>
+                <button class="secondary-cta"><a href="contact.php"><img src="/portfolio/images/MESSAGE.SVG" alt="envelop" type="image/svg">Contact Me</button></a>
             </div>
         </section>
 
@@ -97,7 +97,7 @@
 
 <!-- Footer -->
         <?php
-            include('footer.php');
+            include('COMPONENTS/footer.php');
         ?>
     </div>
 </body>

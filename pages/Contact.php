@@ -7,18 +7,20 @@
     <link rel="stylesheet" href="/portfolio/styles/styles.css" type="text/css">
     <link rel="stylesheet" href="/portfolio/styles/mobile/contacts.css" type="text/css">
     <link rel="stylesheet" href="/portfolio/styles/tablet/tab.css" type="text/css">
+    <link rel="stylesheet" href="/portfolio/styles/universal.css" type="text/css">
+
     <title>about Ngahu</title>
 </head>
 <body>
 <!-- Nav-bar -->
-    <?php include('navbar.php');?>
+    <?php include('/COMPONENTS/navbar.php');?>
     <div class="container">
 
         
             <!--  -->
-        <h2>Contact Me</h2>
+        
         <div class="contact-container">
-
+            <h2>Contact Me</h2>
             <div class="contact-info">
                 <p class="mode">Email:</p>
                 <p class="info">ngahujoseph@proton.me</p>
@@ -44,7 +46,7 @@
             </div>
         </div>
             <!-- Footer -->
-            <?php include('footer.php');?>
+            <?php include('/COMPONENTS/footer.php');?>
         
     </div>
 </body>

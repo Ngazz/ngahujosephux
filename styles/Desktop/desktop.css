@@ -3,72 +3,6 @@
   body {
     font-size: 1.25rem;
   }
-  .nav-bar {
-    background-color: #060613;
-    height: -moz-fit-content;
-    height: fit-content;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 999;
-  }
-  .nav-bar .nav-bar-items {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    z-index: 999;
-  }
-  .nav-bar .nav-bar-items .logo {
-    width: 16rem;
-  }
-  .nav-bar .nav-bar-items .nav-links {
-    display: flex;
-    flex-direction: row;
-    font-size: 1.2rem;
-    gap: 2vw;
-    align-items: center;
-    text-align: center;
-    transition: transform 0.5 ease-in-out;
-    padding: 2vh;
-    gap: 10vh;
-    width: 100%;
-    justify-content: flex-end;
-  }
-  .nav-bar .nav-bar-items .nav-links span {
-    font-size: 2rem;
-    font-weight: 900;
-    text-align: center;
-  }
-  .nav-bar .nav-bar-items .nav-links li {
-    opacity: 1;
-    list-style-type: none;
-    list-style: none;
-  }
-  .nav-bar .nav-bar-items .nav-links li a {
-    text-decoration: none;
-    color: #f9f9f9;
-  }
-  .nav-bar .nav-bar-items .nav-links li a:hover {
-    text-transform: uppercase;
-    transition: transform 0.5s ease-in-out;
-  }
-  .nav-bar .nav-bar-items .burger-icon div {
-    height: 0.0625rem;
-    width: 1.5rem;
-    background-color: #f9f9f9;
-    margin: 0.5rem;
-    transition: all 0.5s ease;
-  }
-  .nav-bar .nav-bar-items .burger-icon {
-    display: none;
-    cursor: pointer;
-  }
-  .nav-bar .nav-bar-items .active {
-    font-weight: 700;
-    color: #62617a;
-  }
   .hero {
     margin-top: 30vh;
     font-size: 1.75rem;
@@ -176,135 +110,12 @@
     text-decoration: none;
     color: #f9f9f9;
     font-size: 1.125rem;
-  }
-  footer {
-    align-items: center;
-    width: 100%;
-    justify-content: flex-start;
-    color: #f9f9f9;
-    position: relative;
-  }
-  footer #logo {
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  footer #logo img {
-    width: 5rem;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  footer .footer-links {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 1.5vh;
-    align-items: flex-start;
-    width: -moz-fit-content;
-    width: fit-content;
-    margin: 2vh 0;
-    font-size: 1.25rem;
-  }
-  footer .footer-links a {
-    text-decoration: none;
-    color: #f9f9f9;
-  }
-  footer .footer-links a:hover {
-    cursor: pointer;
-  }
-  footer .social-icons {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    float: right;
-    top: 0;
-    position: absolute;
-    right: 2vh;
-    gap: 1.5rem;
-  }
-  footer .social-icons img {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    background-position: center;
-    background-size: cover;
-  }
-  footer .copyright {
-    float: right;
-    margin-top: 1rem;
   }
 }
 @media screen and (min-width: 1366px) and (max-width: 1450px) {
   body {
     font-size: 1.25rem;
   }
-  .nav-bar {
-    background-color: #060613;
-    height: -moz-fit-content;
-    height: fit-content;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 999;
-  }
-  .nav-bar .nav-bar-items {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    z-index: 999;
-  }
-  .nav-bar .nav-bar-items .logo {
-    width: 10rem;
-  }
-  .nav-bar .nav-bar-items .nav-links {
-    display: flex;
-    flex-direction: row;
-    font-size: 1.2rem;
-    gap: 2vw;
-    align-items: center;
-    text-align: center;
-    transition: transform 0.5 ease-in-out;
-    padding: 2vh;
-    gap: 10vh;
-    width: 100%;
-    justify-content: flex-end;
-  }
-  .nav-bar .nav-bar-items .nav-links span {
-    font-size: 2rem;
-    font-weight: 900;
-    text-align: center;
-  }
-  .nav-bar .nav-bar-items .nav-links li {
-    opacity: 1;
-    list-style-type: none;
-    list-style: none;
-  }
-  .nav-bar .nav-bar-items .nav-links li a {
-    text-decoration: none;
-    color: #f9f9f9;
-  }
-  .nav-bar .nav-bar-items .nav-links li a:hover {
-    text-transform: uppercase;
-    transition: transform 0.5s ease-in-out;
-  }
-  .nav-bar .nav-bar-items .burger-icon div {
-    height: 0.0625rem;
-    width: 1.5rem;
-    background-color: #f9f9f9;
-    margin: 0.5rem;
-    transition: all 0.5s ease;
-  }
-  .nav-bar .nav-bar-items .burger-icon {
-    display: none;
-    cursor: pointer;
-  }
-  .nav-bar .nav-bar-items .active {
-    font-weight: 700;
-    color: #62617a;
-  }
   .hero {
     margin-top: 30vh;
     font-size: 1.75rem;
@@ -412,63 +223,6 @@
     text-decoration: none;
     color: #f9f9f9;
     font-size: 1.125rem;
-  }
-  footer {
-    align-items: center;
-    width: 100%;
-    justify-content: flex-start;
-    color: #f9f9f9;
-    position: relative;
-  }
-  footer #logo {
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  footer #logo img {
-    width: 5rem;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  footer .footer-links {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 1.5vh;
-    align-items: flex-start;
-    width: -moz-fit-content;
-    width: fit-content;
-    margin: 2vh 0;
-    font-size: 1.25rem;
-  }
-  footer .footer-links a {
-    text-decoration: none;
-    color: #f9f9f9;
-  }
-  footer .footer-links a:hover {
-    cursor: pointer;
-  }
-  footer .social-icons {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    float: right;
-    top: 0;
-    position: absolute;
-    right: 2vh;
-    gap: 1.5rem;
-  }
-  footer .social-icons img {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    background-position: center;
-    background-size: cover;
-  }
-  footer .copyright {
-    float: right;
-    margin-top: 1rem;
   }
 }
 /*MEDIUM DESKTOPS*/
@@ -476,72 +230,6 @@
   body {
     font-size: 1.25rem;
   }
-  .nav-bar {
-    background-color: #060613;
-    height: -moz-fit-content;
-    height: fit-content;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 999;
-  }
-  .nav-bar .nav-bar-items {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    z-index: 999;
-  }
-  .nav-bar .nav-bar-items .logo {
-    width: 16rem;
-  }
-  .nav-bar .nav-bar-items .nav-links {
-    display: flex;
-    flex-direction: row;
-    font-size: 1.2rem;
-    gap: 2vw;
-    align-items: center;
-    text-align: center;
-    transition: transform 0.5 ease-in-out;
-    padding: 2vh;
-    gap: 10vh;
-    width: 100%;
-    justify-content: flex-end;
-  }
-  .nav-bar .nav-bar-items .nav-links span {
-    font-size: 2rem;
-    font-weight: 900;
-    text-align: center;
-  }
-  .nav-bar .nav-bar-items .nav-links li {
-    opacity: 1;
-    list-style-type: none;
-    list-style: none;
-  }
-  .nav-bar .nav-bar-items .nav-links li a {
-    text-decoration: none;
-    color: #f9f9f9;
-  }
-  .nav-bar .nav-bar-items .nav-links li a:hover {
-    text-transform: uppercase;
-    transition: transform 0.5s ease-in-out;
-  }
-  .nav-bar .nav-bar-items .burger-icon div {
-    height: 0.0625rem;
-    width: 1.5rem;
-    background-color: #f9f9f9;
-    margin: 0.5rem;
-    transition: all 0.5s ease;
-  }
-  .nav-bar .nav-bar-items .burger-icon {
-    display: none;
-    cursor: pointer;
-  }
-  .nav-bar .nav-bar-items .active {
-    font-weight: 700;
-    color: #62617a;
-  }
   .hero {
     margin-top: 30vh;
     font-size: 1.75rem;
@@ -665,46 +353,5 @@
     width: 5rem;
     justify-content: flex-start;
     align-items: flex-start;
-  }
-  footer .footer-links {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 1.5vh;
-    align-items: flex-start;
-    width: -moz-fit-content;
-    width: fit-content;
-    margin: 2vh 0;
-    font-size: 1.25rem;
-  }
-  footer .footer-links a {
-    text-decoration: none;
-    color: #f9f9f9;
-  }
-  footer .footer-links a:hover {
-    cursor: pointer;
-  }
-  footer .social-icons {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    float: right;
-    top: 0;
-    position: absolute;
-    right: 2vh;
-    gap: 1.5rem;
-  }
-  footer .social-icons img {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    background-position: center;
-    background-size: cover;
-  }
-  footer .copyright {
-    float: right;
-    margin-top: 1rem;
   }
 }/*# sourceMappingURL=desktop.css.map */

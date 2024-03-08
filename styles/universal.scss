@@ -73,7 +73,8 @@ img {
         position: relative;
         color: #f9f9f9;
         img {
-            border-radius: 16px 16px 0 0;
+            // border-radius: 16px 16px 0 0;
+            width: 100%;
         }
         .project-type {
             position: absolute;
@@ -125,9 +126,10 @@ img {
             padding: 10px;
             border-radius: 0.5rem;
             height: 48px;
-            color: #0a0a25;
-            background-color: #f9f9f9;
+            // color: #0a0a25;
+            // background-color: #f9f9f9;
             width: 100%;
+            color: #f9f9f9;
         }
     }
 }
@@ -154,8 +156,8 @@ h2 {
     text-align: center;
     padding: 1.5rem 0;
     img {
-        width: 32px;
-        height: 32px;
+        width: 1.5rem;
+        height: 1.5rem;
         border-radius: 50%;
         background-position: center;
         background-size: cover;
@@ -174,4 +176,11 @@ a:hover {
     margin: 4em 0 1rem;
     background-size: cover;
     background-position: center;
+}
+
+.contact-container {
+    h2 {
+        margin: 4em 0 0.5rem;
+        border: #033d03 solid 100px
+    }
 }

@@ -11,7 +11,7 @@
 </head>
 <body>
     <!-- Nav bar -->
-    <?php include('navbar.php');?>
+    <?php include('COMPONENTS/navbar.php');?>
 
     <div class="container">
         <section class="portfolio-hero">
@@ -30,7 +30,7 @@
             </div>
         </section>
         <p class="see-more">See more on <a href="htttps://www.dribbble/com/Ngahu"><img src="dribbble" alt="">Dribbble</a></p>
-        <?php include('footer.php');?>
+        <?php include('COMPONENTS/footer.php');?>
     </div>
 </body>
 </html>

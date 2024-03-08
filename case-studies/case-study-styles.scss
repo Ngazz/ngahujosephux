@@ -14,9 +14,16 @@
     }
 }
 
+h1,
+h2 {
+    margin: 4em 0 0.5rem;
+}
+
 @media screen and (min-width:250px) and (max-width:375px) {
     .image-section {
         height: 100%;
         object-fit: cover;
     }
 }
+
+@media screen and (min-width:375px) and (max-width:450px) {}

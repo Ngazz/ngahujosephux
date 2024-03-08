@@ -1,5 +1,6 @@
 <head>
-<link rel="stylesheet" href="/portfolio/styles/navbar.css" type="text/css">
+<!-- <link rel="stylesheet" href="/portfolio/styles/navbar.css" type="text/css"> -->
+<link rel="stylesheet" href="/portfolio/pages/COMPONENTS/navBar.css" type="text/css">
 </head>
 <div class="nav-bar">
     <div class="container">
