@@ -11,7 +11,7 @@
 </head>
 <body>
     <!-- Navbar -->
-    <?php include('COMPONENT/navbar.php');?>
+    <?php include('COMPONENTS/navbar.php');?>
 
     <div class="container">
 
