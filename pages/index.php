@@ -48,20 +48,20 @@
     <div class="skill-img"><img src="" alt="UX design" type="image/svg"></div>
     <div class="skill-name">PRODUCT DESIGN</div>
     <div class="skill-description">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Dolor iste aut temporibus qui eaque placeat inventore,
-            labore commodi obcaecati reprehenderit.</p>
+        <p>
+            Wireframing & Prototyping crafting digital solutions that merge users needs and great digital experience.
+        </p>
     </div>
 </div>
 
 <!-- Card two -->
 <div class="skills-card">
     <div class="skill-img"><img src="" alt="UX design" type="image/svg"></div>
-    <div class="skill-name">PRODUCT STRATEGY</div>
+    <div class="skill-name">UX STRATEGY</div>
     <div class="skill-description">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Dolor iste aut temporibus qui eaque placeat inventore,
-            labore commodi obcaecati reprehenderit.</p>
+        <p>
+            Integrating comprehensive plans that align user experience goals with overal business objectives.
+        </p>
     </div>
 </div>
 
@@ -70,9 +70,9 @@
     <div class="skill-img"><img src="" alt="UX design" type="image/svg"></div>
     <div class="skill-name">PRODUCT RESEARCH</div>
     <div class="skill-description">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Dolor iste aut temporibus qui eaque placeat inventore,
-            labore commodi obcaecati reprehenderit.</p>
+        <p>
+            Utilization of qualitative and quantitative methods to inform & valiate product decisions.
+        </p>
     </div>
 </div>
 </section>
