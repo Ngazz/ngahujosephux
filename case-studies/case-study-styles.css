@@ -1,5 +1,5 @@
 .case-study-hero {
-  margin-top: 4em;
+  margin-top: 8em;
   height: 100lvh;
 }
 
@@ -19,7 +19,6 @@ h2 {
 
 @media screen and (min-width: 250px) and (max-width: 375px) {
   .image-section {
-    height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
   }

@@ -14,12 +14,13 @@
 
 li {
   list-style-type: none;
+  font-size: 1rem;
 }
 
 :root {
   background-color: #121212;
   list-style-type: none;
-  font-size: 16px;
+  font-size: 1rem;
   color: #e4dbdb;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
@@ -44,6 +45,10 @@ li {
   justify-content: center;
   text-align: center;
   padding: 0.5rem;
+}
+
+.nav-links a:hover {
+  border-bottom: #e4dbdb solid 0.125rem;
 }
 
 .secondary-cta {
@@ -143,7 +148,7 @@ button:hover {
 
 h1,
 h2 {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: 300;
   color: #e4dbdb;
   font-family: sans-serif;
@@ -190,7 +195,7 @@ a:hover {
 }
 
 p {
-  font-size: 1.125rem;
+  font-size: 1.025rem;
   text-rendering: optimizeLegibility;
   font-weight: normal;
   line-height: 1.6;
@@ -199,14 +204,27 @@ p {
 
 .skills {
   width: 100%;
+  padding: 2.5rem 0;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
 }
 .skills .skills-card {
-  background-color: #050514;
+  background-color: #060613;
+  padding: 1rem;
   width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 4px 4px 5px 0px rgba(40, 38, 43, 0.5), -4px -4px 4px 0px rgba(40, 39, 43, 0.5);
 }
 .skills .skills-card .skill-img,
 .skills .skills-card .skill-name {
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+
+i {
+  font-size: 0.675rem;
+  font-weight: 200;
 }/*# sourceMappingURL=universal.css.map */

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
 @media screen and (min-width:250px) and (max-width:375px) {
     .nav-bar {
         background-color: #060613;
@@ -473,9 +474,11 @@
                 width: 100%;
                 justify-content: flex-end;
                 span {
-                    font-size: 2rem;
-                    font-weight: 900;
+                    font-size: 1rem;
+                    font-weight: 200;
                     text-align: center;
+                    font-family: "Dosis", sans-serif;
+                    font-style: italic;
                 }
             }
             .nav-links li {
@@ -487,8 +490,9 @@
                     color: #f9f9f9;
                 }
                 a:hover {
-                    text-transform: uppercase;
-                    transition: transform 0.5s ease-in-out;
+                    border-bottom: #62617a solid 0.125rem;
+                    transition: transform 0.5s ease-in;
+                    padding-bottom: 0.25rem;
                 }
             }
             .burger-icon div {

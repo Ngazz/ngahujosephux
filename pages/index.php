@@ -55,9 +55,9 @@
 </div>
 
 <!-- Card two -->
-<div class="skills-card">
+<div class="skills-card" style="background-color: #091486;">
     <div class="skill-img"><img src="" alt="UX design" type="image/svg"></div>
-    <div class="skill-name">UX STRATEGY</div>
+    <div class="skill-name" >UX STRATEGY</div>
     <div class="skill-description">
         <p>
             Integrating comprehensive plans that align user experience goals with overal business objectives.

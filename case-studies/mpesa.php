@@ -15,11 +15,16 @@
         <section class="case-study-hero">
             <div class="project-name">
                 <div class="name">
-                    DONOR
+                    DONOR 
                 </div>
                 <div class="case-study">Case Study</div>
             </div>
             <div class="image-section"><img src="/portfolio/images/test.svg" alt="project-img" srcset=""></div>
+            <div class="duration">
+                <h1>Duration</h1>
+                <p>This is a Solo Three week Design Sprint.</p>
+                <p class="date">From:<i>10-01-2024 </i> To:<i>31-01-2024.</i></p>
+            </div>
         </section>
     </div>
 
@@ -106,8 +111,9 @@
                  <img src="/portfolio/images/message.svg" alt="Email" type="image/svg">
             </div>
         </div>
-        <div class="thank-you">Thank You</div>
-        <button class="back-top"><a href="mpesa.php"><img src="" alt="back-to-top" srcset="">Back to Top</a></button>
+        <h1>Thank You</h1>
+        <p>You have reached the End!</p>
+        <button class="back-top" style="margin-bottom: 4rem;"><a href="mpesa.php"><img src="" alt="back-to-top" srcset="">Back to Top</a></button>
     </div>
 </body>
 </html>
