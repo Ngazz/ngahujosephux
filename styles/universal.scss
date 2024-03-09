@@ -42,6 +42,7 @@ li {
         justify-content: center;
         text-align: center;
         padding: 0.5rem;
+        font-weight: 600;
     }
 }
 
@@ -53,6 +54,7 @@ li {
 
 .secondary-cta {
     background: none;
+    border: 0.125rem solid #091486;
 }
 
 body {
@@ -160,11 +162,9 @@ h2 {
 .social-icons {
     display: inline-flex;
     flex-direction: row;
-    width: 100%;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 1.5rem 0;
     img {
         width: 1.5rem;
         height: 1.5rem;
@@ -204,7 +204,7 @@ p {
     font-family: inherit;
 }
 
-.skills {
+.skills-section {
     width: 100%;
     padding: 2.5rem 0;
     display: inline-flex;
@@ -226,7 +226,35 @@ p {
     }
 }
 
+.contacts {
+    margin-top: 6em;
+}
+
 i {
     font-size: 0.675rem;
     font-weight: 200;
+}
+
+.nav-links a {
+    display: flex;
+    flex-direction: row;
+    gap: 0.25rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    span {
+        color: #cf83c5;
+    }
+}
+
+.welcome {
+    margin-top: 6em;
+}
+
+.hero {
+    margin-top: 30vh;
+    height: 100lvh;
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
 }

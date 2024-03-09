@@ -23,7 +23,7 @@
             <div class="duration">
                 <h1>Duration</h1>
                 <p>This is a Solo Three week Design Sprint.</p>
-                <p class="date">From:<i>10-01-2024 </i> To:<i>31-01-2024.</i></p>
+                <p class="date">From:<i>10-01-2024 </i> To:<i>Ongoing</i></p>
             </div>
         </section>
     </div>

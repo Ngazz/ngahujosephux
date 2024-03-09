@@ -10,10 +10,10 @@
             </div>
 
                 <ul class="nav-links">
-                    <li><a href="index.php" class="active"><span>00</span>Home</a></li>
-                    <li><a href="portfolio.php"><span>01</span>Work</a></li>
-                    <li><a href="About.php"><span>02</span>About Me</a></li>
-                    <li><a href="Contact.php"><span>03</span>Contacts</a></li>
+                    <li><a href="\portfolio\pages\index.php" class="active"><span>00</span>Home</a></li>
+                    <li><a href="\portfolio\pages\portfolio.php"><span>01</span>Work</a></li>
+                    <li><a href="\portfolio\pages\About.php"><span>02</span>About Me</a></li>
+                    <li><a href="\portfolio\pages\Contact.php"><span>03</span>Contacts</a></li>
                 </ul>
 
             <div class="burger-icon" >

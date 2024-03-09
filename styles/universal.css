@@ -45,6 +45,7 @@ li {
   justify-content: center;
   text-align: center;
   padding: 0.5rem;
+  font-weight: 600;
 }
 
 .nav-links a:hover {
@@ -53,6 +54,7 @@ li {
 
 .secondary-cta {
   background: none;
+  border: 0.125rem solid #091486;
 }
 
 body {
@@ -160,11 +162,9 @@ h2 {
 .social-icons {
   display: inline-flex;
   flex-direction: row;
-  width: 100%;
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  padding: 1.5rem 0;
 }
 .social-icons img {
   width: 1.5rem;
@@ -202,7 +202,7 @@ p {
   font-family: inherit;
 }
 
-.skills {
+.skills-section {
   width: 100%;
   padding: 2.5rem 0;
   display: inline-flex;
@@ -210,21 +210,49 @@ p {
   justify-content: space-between;
   gap: 1.5rem;
 }
-.skills .skills-card {
+.skills-section .skills-card {
   background-color: #060613;
   padding: 1rem;
   width: 100%;
   border-radius: 0.5rem;
   box-shadow: 4px 4px 5px 0px rgba(40, 38, 43, 0.5), -4px -4px 4px 0px rgba(40, 39, 43, 0.5);
 }
-.skills .skills-card .skill-img,
-.skills .skills-card .skill-name {
+.skills-section .skills-card .skill-img,
+.skills-section .skills-card .skill-name {
   text-align: center;
   justify-content: center;
   align-items: center;
 }
 
+.contacts {
+  margin-top: 6em;
+}
+
 i {
   font-size: 0.675rem;
   font-weight: 200;
+}
+
+.nav-links a {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.nav-links a span {
+  color: #cf83c5;
+}
+
+.welcome {
+  margin-top: 6em;
+}
+
+.hero {
+  margin-top: 30vh;
+  height: 100lvh;
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
 }/*# sourceMappingURL=universal.css.map */

@@ -107,9 +107,10 @@ a {
   footer .a,
   footer .b {
     padding: 2.5rem 0;
+    gap: 2.5rem;
     justify-content: space-between;
-    width: 100%;
-    height: 10vh;
+    display: inline-flex;
+    flex-direction: column;
   }
   footer .footer-links {
     display: flex;

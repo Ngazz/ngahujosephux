@@ -51,7 +51,6 @@
     color: #f9f9f9;
   }
   .nav-bar .nav-bar-items .nav-links li a:hover {
-    text-transform: uppercase;
     transition: transform 0.5s ease-in-out;
   }
   .nav-bar .nav-bar-items .burger-icon div {
@@ -230,7 +229,6 @@
     color: #f9f9f9;
   }
   .nav-bar .nav-bar-items .nav-links li a:hover {
-    text-transform: uppercase;
     transition: transform 0.5s ease-in-out;
   }
   .nav-bar .nav-bar-items .burger-icon div {

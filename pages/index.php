@@ -42,40 +42,42 @@
         ?>
 
 <!-- SKILLS -->
-<section class="skills">
+    <section class="skills">
+    <h2>Essential Skills</h2>
+    <div class="skills-section">
+        <div class="skills-card">
+            <div class="skill-img"><img src="" alt="UX design" type="image/svg"></div>
+            <div class="skill-name">PRODUCT DESIGN</div>
+            <div class="skill-description">
+                <p>
+                    Wireframing & Prototyping crafting digital solutions that merge users needs and great digital experience.
+                </p>
+            </div>
+        </div>
 
-<div class="skills-card">
-    <div class="skill-img"><img src="" alt="UX design" type="image/svg"></div>
-    <div class="skill-name">PRODUCT DESIGN</div>
-    <div class="skill-description">
-        <p>
-            Wireframing & Prototyping crafting digital solutions that merge users needs and great digital experience.
-        </p>
-    </div>
-</div>
+        <!-- Card two -->
+        <div class="skills-card" style="background-color: #091486;">
+            <div class="skill-img"><img src="" alt="UX design" type="image/svg"></div>
+            <div class="skill-name" >UX STRATEGY</div>
+            <div class="skill-description">
+                <p>
+                    Integrating comprehensive plans that align user experience goals with overal business objectives.
+                </p>
+            </div>
+        </div>
 
-<!-- Card two -->
-<div class="skills-card" style="background-color: #091486;">
-    <div class="skill-img"><img src="" alt="UX design" type="image/svg"></div>
-    <div class="skill-name" >UX STRATEGY</div>
-    <div class="skill-description">
-        <p>
-            Integrating comprehensive plans that align user experience goals with overal business objectives.
-        </p>
+    <!-- card 3 -->
+        <div class="skills-card">
+            <div class="skill-img"><img src="" alt="UX design" type="image/svg"></div>
+            <div class="skill-name">PRODUCT RESEARCH</div>
+            <div class="skill-description">
+                <p>
+                    Utilization of qualitative and quantitative methods to inform & valiate product decisions.
+                </p>
+            </div>
+        </div>
     </div>
-</div>
-
-<!-- card 3 -->
-<div class="skills-card">
-    <div class="skill-img"><img src="" alt="UX design" type="image/svg"></div>
-    <div class="skill-name">PRODUCT RESEARCH</div>
-    <div class="skill-description">
-        <p>
-            Utilization of qualitative and quantitative methods to inform & valiate product decisions.
-        </p>
-    </div>
-</div>
-</section>
+    </section>
 
 <!-- Contact me on Home page -->
         <section class="send-mail">
