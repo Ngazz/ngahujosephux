@@ -22,6 +22,6 @@
             <img src="/portfolio/images/twitter 1.svg" alt="X" type="image/svg">
         </div>
 
-        <div class="copyright"><p>&copy;Powered By Ngahu.</p></div>
+        <div class="copyright">&copy;Powered By Ngahu.</div>
     </div>
 </footer>

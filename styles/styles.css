@@ -40,9 +40,6 @@
     margin: 1.5rem 0;
     font-size: 1rem;
   }
-  .hero {
-    gap: 10vh;
-  }
   .hero .greeting {
     font-size: 1rem;
   }
@@ -78,9 +75,6 @@
   p {
     margin: 1.5rem 0;
     font-size: 1rem;
-  }
-  .hero {
-    gap: 10vh;
   }
   .hero .greeting {
     font-size: 1rem;
@@ -210,9 +204,6 @@
   h2 {
     font-size: 1.5rem;
   }
-  .hero {
-    gap: 10vh;
-  }
   .hero .greeting {
     font-size: 1.25rem;
   }
@@ -257,9 +248,6 @@
   h1,
   h2 {
     font-size: 1.5rem;
-  }
-  .hero {
-    gap: 10vh;
   }
   .hero .greeting {
     font-size: 1.5rem;

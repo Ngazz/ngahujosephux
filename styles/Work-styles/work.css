@@ -30,8 +30,8 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  margin-top: 1rem;
 }
 .work-cards-section .card .more .cta-projects .platform {
   border: #525257 solid 0.125rem;
@@ -70,6 +70,7 @@
   display: inline-flex;
   flex-direction: row;
   gap: 0.5rem;
+  margin-bottom: 4rem;
 }
 .see-more a {
   display: inline-flex;
@@ -163,6 +164,7 @@
     height: 1.25rem;
     border: #e4dfdf solid 0.0625px;
     border-radius: 50%;
+    padding: 0.125rem;
   }
   .see-more {
     align-items: center;
@@ -170,6 +172,7 @@
     display: inline-flex;
     flex-direction: row;
     gap: 0.5rem;
+    margin-bottom: 4rem;
   }
   .see-more a {
     display: inline-flex;
@@ -203,6 +206,79 @@
   .cta-projects {
     display: flex;
     flex-direction: row;
-    gap: 2.5rem;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 550px) {
+  .cta-projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .brand-identity {
+    margin-top: 2.5rem;
+  }
+  .brand-identity .brand-identity-cards {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .brand-identity img {
+    width: 47%;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 650px) {
+  .cta-projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .brand-identity {
+    margin-top: 2.5rem;
+  }
+  .brand-identity .brand-identity-cards {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .brand-identity img {
+    width: 47%;
+  }
+}
+@media screen and (min-width: 650px) {
+  .work-cards-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .work-cards-section .card {
+    width: 48%;
+  }
+  .work-cards-section .cta-projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .brand-identity {
+    margin-top: 2.5rem;
+  }
+  .brand-identity .brand-identity-cards {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .brand-identity img {
+    width: 47%;
   }
 }/*# sourceMappingURL=work.css.map */

@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/portfolio/styles/styles.css" type="text/css">
-    <link rel="stylesheet" href="/portfolio/styles/Mobile/about.css" type="text/css">
-
+   <link rel="stylesheet" href="/portfolio/styles/About/about.css" type="text/css">
     <title>about Ngahu</title>
 </head>
 <body>
