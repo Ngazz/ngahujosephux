@@ -44,6 +44,7 @@
         font-size: 1rem;
     }
     .hero {
+        gap: 10vh;
         .greeting {
             font-size: 1rem;
         }
@@ -83,6 +84,7 @@
         font-size: 1rem;
     }
     .hero {
+        gap: 10vh;
         .greeting {
             font-size: 1rem;
         }
@@ -122,6 +124,7 @@
         font-size: 1rem;
     }
     .hero {
+        gap: 8vh;
         .greeting {
             font-size: 1rem;
         }
@@ -168,6 +171,7 @@
         font-size: 1rem;
     }
     .hero {
+        gap: 8vh;
         .greeting {
             font-size: 1rem;
         }
@@ -201,6 +205,106 @@
             flex-wrap: wrap;
             flex-direction: row;
             gap: 1.5rem;
+            button {
+                width: 10rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    p {
+        margin: 1.5rem 0;
+        font-size: 1.125rem;
+    }
+    h1,
+    h2 {
+        font-size: 1.5rem;
+    }
+    .hero {
+        gap: 10vh;
+        .greeting {
+            font-size: 1.25rem;
+        }
+        .description {
+            font-size: 1.5rem;
+        }
+        .cta {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 2rem;
+            button {
+                width: 10rem;
+            }
+        }
+    }
+    .skills {
+        .skills-section {
+            display: inline-flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+    .send-mail {
+        margin: 10vh 0;
+        p {
+            font-size: 1.125rem;
+        }
+        .email-me-cta {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            gap: 2rem;
+            button {
+                width: 10rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1024px) {
+    p {
+        margin: 1.5rem 0;
+        font-size: 1.125rem;
+    }
+    h1,
+    h2 {
+        font-size: 1.5rem;
+    }
+    .hero {
+        gap: 10vh;
+        .greeting {
+            font-size: 1.5rem;
+        }
+        .description {
+            font-size: 2rem;
+        }
+        .cta {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 2rem;
+            font-size: 1rem;
+        }
+    }
+    .skills {
+        .skills-section {
+            display: inline-flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+    .send-mail {
+        margin: 10vh 0;
+        p {
+            font-size: 1.125rem;
+        }
+        .email-me-cta {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            gap: 2rem;
             button {
                 width: 10rem;
             }

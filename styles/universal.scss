@@ -75,75 +75,6 @@ img {
     height: fit-content;
 }
 
-.work-cards-section {
-    justify-content: space-between;
-    gap: 0.5rem;
-    height: 100%;
-    .card {
-        background-color: #050514;
-        padding: 0.5rem;
-        border-radius: 24px;
-        height: auto;
-        position: relative;
-        color: #f9f9f9;
-        img {
-            // border-radius: 16px 16px 0 0;
-            width: 100%;
-        }
-        .project-type {
-            position: absolute;
-            top: 5%;
-            right: 5%;
-            display: inline-flex;
-            flex-direction: row;
-            text-align: center;
-            align-items: center;
-            gap: 0.5rem;
-            background-color: #62617a;
-            padding: 0.5rem;
-            border-radius: .75rem;
-            font-size: 1rem;
-            font-weight: 700;
-            .dot {
-                height: 12px;
-                width: 12px;
-                background-color: #033d03;
-                border-radius: 50%;
-            }
-        }
-        .description {
-            width: 100%;
-            align-items: center;
-        }
-        .name {
-            font-size: 18px;
-            font-weight: 600;
-        }
-        .info {
-            font-size: 16px;
-            font-weight: 400;
-            padding: 8px 0;
-        }
-        .device {
-            font-size: 16px;
-            display: flex;
-            padding: 8px 0;
-        }
-        .case-study {
-            margin: 8px 0;
-            font-size: 16px;
-            text-align: center;
-            justify-content: center;
-            align-items: center;
-            padding: 10px;
-            border-radius: 0.5rem;
-            height: 48px;
-            width: 100%;
-            color: #f9f9f9;
-        }
-    }
-}
-
 button:hover {
     cursor: pointer;
 }
@@ -249,6 +180,7 @@ i {
 
 .welcome {
     margin-top: 6em;
+    margin-bottom: 2rem;
 }
 
 .hero {
@@ -256,5 +188,4 @@ i {
     height: 100lvh;
     display: flex;
     flex-direction: column;
-    gap: 10vh;
 }

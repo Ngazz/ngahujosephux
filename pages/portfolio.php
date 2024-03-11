@@ -29,7 +29,7 @@
                 <img src="/portfolio/images/digiRafiki.jpg" alt="digirafiki" srcset="" type="image/jpg">
             </div>
         </section>
-        <p class="see-more">See more on <a href="htttps://www.dribbble/com/Ngahu"><img src="dribbble" alt="">Dribbble</a></p>
+        <p class="see-more">See more on <a href="htttps://www.dribbble/com/Ngahu"><img src="\portfolio\Images\dribble.svg" alt="dribbble" type="image/svg">Dribbble.com</a></p>
         <?php include('COMPONENTS/footer.php');?>
     </div>
 </body>

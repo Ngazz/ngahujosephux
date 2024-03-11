@@ -6,7 +6,7 @@
     <div class="container">
         <div class="nav-bar-items">
             <div class="logo">
-                <a href="index.php"><img src="\portfolio\Images\logo.svg" alt="Logo" srcset="" type="image/svg"></a>
+                <a href="\portfolio\pages\index.php"><img src="\portfolio\Images\logo.svg" alt="Logo" srcset="" type="image/svg"></a>
             </div>
 
                 <ul class="nav-links">

@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <link rel="icon" href="" type="image/svg">
     <link rel="stylesheet" href="/portfolio/styles/styles.css" type="text/css">
-    <link rel="stylesheet" href="/portfolio/styles/tablet/tab.css" type="text/css">
     <link rel="stylesheet" href="/portfolio/styles/universal.css" type="text/css">
     <link rel="stylesheet" href="/portfolio/styles/Desktop/desktop.css" type="text/css">
     <link rel="stylesheet" href="/portfolio/styles/Lscreens/Ldesktop.css" type="text/css">
@@ -43,7 +42,7 @@
 
 <!-- SKILLS -->
     <section class="skills">
-    <h2>Essential Skills</h2>
+    <h2>Consultancy & Services</h2>
     <div class="skills-section">
         <div class="skills-card">
             <div class="skill-img"><img src="" alt="UX design" type="image/svg"></div>

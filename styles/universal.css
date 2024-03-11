@@ -76,74 +76,6 @@ img {
   height: fit-content;
 }
 
-.work-cards-section {
-  justify-content: space-between;
-  gap: 0.5rem;
-  height: 100%;
-}
-.work-cards-section .card {
-  background-color: #050514;
-  padding: 0.5rem;
-  border-radius: 24px;
-  height: auto;
-  position: relative;
-  color: #f9f9f9;
-}
-.work-cards-section .card img {
-  width: 100%;
-}
-.work-cards-section .card .project-type {
-  position: absolute;
-  top: 5%;
-  right: 5%;
-  display: inline-flex;
-  flex-direction: row;
-  text-align: center;
-  align-items: center;
-  gap: 0.5rem;
-  background-color: #62617a;
-  padding: 0.5rem;
-  border-radius: 0.75rem;
-  font-size: 1rem;
-  font-weight: 700;
-}
-.work-cards-section .card .project-type .dot {
-  height: 12px;
-  width: 12px;
-  background-color: #033d03;
-  border-radius: 50%;
-}
-.work-cards-section .card .description {
-  width: 100%;
-  align-items: center;
-}
-.work-cards-section .card .name {
-  font-size: 18px;
-  font-weight: 600;
-}
-.work-cards-section .card .info {
-  font-size: 16px;
-  font-weight: 400;
-  padding: 8px 0;
-}
-.work-cards-section .card .device {
-  font-size: 16px;
-  display: flex;
-  padding: 8px 0;
-}
-.work-cards-section .card .case-study {
-  margin: 8px 0;
-  font-size: 16px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  border-radius: 0.5rem;
-  height: 48px;
-  width: 100%;
-  color: #f9f9f9;
-}
-
 button:hover {
   cursor: pointer;
 }
@@ -247,6 +179,7 @@ i {
 
 .welcome {
   margin-top: 6em;
+  margin-bottom: 2rem;
 }
 
 .hero {
@@ -254,5 +187,4 @@ i {
   height: 100lvh;
   display: flex;
   flex-direction: column;
-  gap: 10vh;
 }/*# sourceMappingURL=universal.css.map */
