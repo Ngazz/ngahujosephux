@@ -14,11 +14,11 @@
     <div class="container">
 
         <section class="about-me">
-            <h2>
+            <p>
                 Hello! I'm Ngahu
-            </h2>
+            </p>
            <div class="who-is-me">
-                  <p>Product Designer,</p>
+                  <h2>Product Designer,</h2>
                 <p class="location"><img src="/portfolio/images/" alt="location" type="image/svg">Eldoret, Kenya</p>
            </div>
 
@@ -39,25 +39,49 @@
             <div class="code-project-container">
                 <div class="project-card">
                     <div class="design-img"><img src="" alt="loop-studios landing page" srcset=""></div>
-                    <div class="name-of-project">Project Name</div>
-                    <div class="description">this is the project description and purpose.</div>
-                    <div class="responsivity">Responsive</div>
-                    <button class="github">See code on Github</button>
+                    <div class="more">
+                        <div class="name-of-project">Project Name</div>
+                        <div class="description">this is the project description and purpose.</div>
+                    </div>
+                    <button class="secondary-cta"><a href=""><img src="" alt="github">GitHub</a></button>
                 </div>
 
                 <div class="project-card">
                     <div class="design-img"><img src="" alt="loop-studios landing page" srcset=""></div>
-                    <div class="name-of-project">Project Name</div>
-                    <div class="description">this is the project description and purpose.</div>
-                    <div class="responsivity">Responsive</div>
-                    <button class="github">See code on Github</button>
+                    <div class="more">
+                        <div class="name-of-project">Project Name</div>
+                        <div class="description">this is the project description and purpose.</div>
+                    </div>
+                    <button class="secondary-cta"><a href=""><img src="" alt="github">GitHub</a></button>
                 </div>
             </div>
 
             <p>See more projects on <a href="https://www.github.com/Ngazz">Github</a> </p>
         </section>
 
-        <section class="services">
+        <section class="experience">
+            <h2>
+                Working Experience
+            </h2>
+            <div class="experience-cards">
+
+                <div class="company">
+                    <div class="company-logo">
+                        <img src="" alt="IconsHub Kisii" type="image/svg">
+                        <div class="company-name">IconsHub Kisii</div>
+                        <div class="duration">September 2022 - March 2023</div>
+                    </div>
+                </div>
+
+                <div class="company">
+                    <div class="company-logo">
+                        <img src="" alt="IconsHub Kisii" type="image/svg">
+                        <div class="company-name">Denloy Investment Ltd</div>
+                        <div class="duration">March 2023 - June 2023</div>
+                    </div>
+                </div>
+            
+            </div>
 
         </section>
         <?php include('COMPONENTS/footer.php');?>

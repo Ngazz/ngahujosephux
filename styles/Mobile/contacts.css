@@ -206,7 +206,7 @@
     font-weight: 400;
     color: #12126f;
     width: 100%;
-    border: #12126f solid 2px;
+    border: #12126f solid 0.125px;
     letter-spacing: 5%;
   }
   .contact-info .primary-cta {
