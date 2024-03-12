@@ -11,7 +11,7 @@
                 <div class="name">Project Name</div>
                 <div class="cta-projects">
                     <button class="platform">Web</button>
-                    <button class="case-study"><a href=""><img src="/portfolio/images/arrow-right.svg" alt="arrow-up-side" type="image/svg"> Read Case Study</a></button>
+                    <button class="case-study"><a href="../case-studies/mpesa.php"><img src="/portfolio/images/arrow-right.svg" alt="arrow-up-side" type="image/svg"> Read Case Study</a></button>
                 </div>
            </div>
         </div>
@@ -25,7 +25,7 @@
                 <div class="name">Project Name</div>
                 <div class="cta-projects">
                     <button class="platform">Web</button>
-                    <button class="case-study"><a href=""><img src="" alt="arrow-up-side">Read Case Study</a></button>
+                    <button class="case-study"><a href=""><img src="/portfolio/images/arrow-right.svg" alt="arrow-up-side" type="image/svg"> Read Case Study</a></button>
                 </div>
            </div>
         </div>
@@ -37,7 +37,7 @@
                 <div class="name">Project Name</div>
                 <div class="cta-projects">
                     <button class="platform">Smartwatch</button>
-                    <button class="case-study"><a href=""><img src="" alt="arrow-up-side">Read Case Study</a></button>
+                    <button class="case-study"><a href=""><img src="/portfolio/images/arrow-right.svg" alt="arrow-up-side" type="image/svg"> Read Case Study</a></button>
                 </div>
            </div>
         </div>
@@ -49,7 +49,7 @@
                 <div class="name">Project Name</div>
                 <div class="cta-projects">
                     <button class="platform">Web</button>
-                    <button class="case-study"><a href=""><img src="" alt="arrow-up-side">Read Case Study</a></button>
+                    <button class="case-study"><a href=""><img src="/portfolio/images/arrow-right.svg" alt="arrow-up-side" type="image/svg"> Read Case Study</a></button>
                 </div>
            </div>
         </div>

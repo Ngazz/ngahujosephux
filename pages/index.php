@@ -30,7 +30,7 @@
                 A Digital Product Designer for Startups &amp; Businesses.
             </div>
             <div class="cta">
-                <button class="primary-cta"><a href="portfolio.php"><img src="/portfolio/images/eye.svg" alt="eye" type="image/svg"> See Projects</button></a>
+                <button class="primary-cta"><a href="portfolio.php"><img src="\portfolio\Images\Assets\eye.svg" alt="eye" type="image/svg"> See Projects</button></a>
                 <button class="secondary-cta"><a href="contact.php"><img src="/portfolio/images/MESSAGE.SVG" alt="envelop" type="image/svg">Contact Me</button></a>
             </div>
         </section>
@@ -45,7 +45,7 @@
     <h2>Consultancy & Services</h2>
     <div class="skills-section">
         <div class="skills-card">
-            <div class="skill-img"><img src="" alt="UX design" type="image/svg"></div>
+            <div class="skill-img"><img src="\portfolio\Images\Assets\design.svg" alt="UX design" type="image/svg"></div>
             <div class="skill-name">PRODUCT DESIGN</div>
             <div class="skill-description">
                 <p>
@@ -56,7 +56,7 @@
 
         <!-- Card two -->
         <div class="skills-card" style="background-color: #091486;">
-            <div class="skill-img"><img src="" alt="UX design" type="image/svg"></div>
+            <div class="skill-img"><img src="\portfolio\Images\Assets\strategy.svg" alt="UX design" type="image/svg"></div>
             <div class="skill-name" >UX STRATEGY</div>
             <div class="skill-description">
                 <p>
@@ -67,7 +67,7 @@
 
     <!-- card 3 -->
         <div class="skills-card">
-            <div class="skill-img"><img src="" alt="UX design" type="image/svg"></div>
+            <div class="skill-img"><img src="\portfolio\Images\Assets\research.svg" alt="UX design" type="image/svg"></div>
             <div class="skill-name">PRODUCT RESEARCH</div>
             <div class="skill-description">
                 <p>

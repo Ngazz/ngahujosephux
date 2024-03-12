@@ -1,4 +1,11 @@
 @import url(universal.css);
+.skill-img {
+    margin-top: 0.5rem;
+    img {
+        width: 2.5rem;
+    }
+}
+
 @media screen and (min-width:250px) and (max-width:375px) {
     p {
         margin: 1.5rem 0;

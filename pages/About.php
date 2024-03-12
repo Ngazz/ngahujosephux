@@ -19,14 +19,14 @@
             </p>
            <div class="who-is-me">
                 <h2>Product Designer,</h2>
-                <p class="location"><img src="/portfolio/images/" alt="location" type="image/svg"><strong>Eldoret, Kenya</strong></p>
-                <p style="font-style:oblique; font-weight:100;">Available for Remote or Relocation.</p>
+                <p class="location"><img src="\portfolio\Images\Assets\location.svg" alt="location" type="image/svg"><strong>Eldoret, Kenya</strong></p>
+                <p style="font-style:oblique; font-weight:100;" class="available">Available for Remote or Relocation.</p>
            </div>
 
             <p> My Journey to Product Design is from a foundational background in Software Engineering.
                  I find joy in developing digital products with Intuitive User Experience which converge with Business goals.</p>
 
-             <button class="primary-cta"><a href=""><img src="/portfolio/Images/eye.svg" alt="eye" type="image/svg">See Resume</a></button>
+             <button class="primary-cta"><a href=""><img src="\portfolio\Images\Assets\eye.svg" alt="eye" type="image/svg">See Resume</a></button>
         </section>
 
         <section class="not-designing">
@@ -39,25 +39,32 @@
 
             <div class="code-project-container">
                 <div class="project-card">
-                    <div class="design-img"><img src="" alt="loop-studios landing page" srcset=""></div>
+                    <div class="design-img"><img src="\portfolio\Images\Designs\CodePojects\code.svg" alt="loop-studios landing page" type="image/svg"></div>
                     <div class="more">
-                        <div class="name-of-project">Project Name</div>
-                        <div class="description">this is the project description and purpose.</div>
+                        <div class="name-of-project">Multi-step Form</div>
+                        <div class="description">
+                            Forms are modern way of collecting user data. Multi-step form fields aim at reducing
+                            the number of input fields by introducing steps so as to reduce the tedious process to the user.
+                        </div>
                     </div>
-                    <button class="secondary-cta"><a href=""><img src="" alt="github">GitHub</a></button>
+                    <button class="secondary-cta"><a href=""><img src="\portfolio\Images\Assets\github.svg" alt="github" type="image/svg">GitHub</a></button>
                 </div>
 
                 <div class="project-card">
-                    <div class="design-img"><img src="" alt="loop-studios landing page" srcset=""></div>
+                <div class="design-img"><img src="\portfolio\Images\Designs\CodePojects\code.svg" alt="loop-studios landing page" type="image/svg"></div>
                     <div class="more">
-                        <div class="name-of-project">Project Name</div>
-                        <div class="description">this is the project description and purpose.</div>
+                        <div class="name-of-project">LoopStudios Landing Page</div>
+                        <div class="description">
+                            LOOPSTUDIOS is a VR making company.<br>
+                            Here comes its landing page code.This a codementor practice challenge to go beyond the <code>Hello, World!</code> 
+                            and develop real-world solutions.
                     </div>
-                    <button class="secondary-cta"><a href=""><img src="" alt="github">GitHub</a></button>
+                    </div>
+                    <button class="secondary-cta"><a href=""><img src="\portfolio\Images\Assets\github.svg" alt="github" type="image/svg">GitHub</a></button>
                 </div>
             </div>
 
-            <p>See more projects on <a href="https://www.github.com/Ngazz">Github</a> </p>
+            <p class="see">See more projects on <a href="https://www.github.com/Ngazz">Github</a> </p>
         </section>
 
         <section class="experience">

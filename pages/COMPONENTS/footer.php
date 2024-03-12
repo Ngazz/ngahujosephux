@@ -17,9 +17,9 @@
     <div class="b">
         <div class="social-icons">
             <img src="/portfolio/images/dribble.svg" alt="dribbble" type="image/svg">
-            <img src="" alt="Github">
-            <img src="/portfolio/Images/linkedin-in 1.svg" alt="LinkedIn" type="image/svg">
-            <img src="/portfolio/images/twitter 1.svg" alt="X" type="image/svg">
+            <img src="\portfolio\Images\Assets\github.svg" alt="Github">
+            <img src="\portfolio\Images\Assets\linkedin.svg" alt="LinkedIn" type="image/svg">
+            <img src="\portfolio\Images\Assets\x.svg" alt="X" type="image/svg">
         </div>
 
         <div class="copyright">&copy;Powered By Ngahu.</div>

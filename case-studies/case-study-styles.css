@@ -17,6 +17,12 @@ h2 {
   margin: 4em 0 0.5rem;
 }
 
+.social-icons {
+  gap: 2rem;
+  display: inline-flex;
+  flex-direction: row;
+}
+
 @media screen and (min-width: 250px) and (max-width: 375px) {
   .image-section {
     -o-object-fit: cover;

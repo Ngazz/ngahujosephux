@@ -61,10 +61,6 @@ body {
     overflow-x: hidden;
 }
 
-a:hover {
-    text-transform: uppercase;
-}
-
 button {
     border: none;
     background: none;
@@ -96,6 +92,8 @@ h2 {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
     img {
         width: 1.5rem;
         height: 1.5rem;
