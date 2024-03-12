@@ -6,7 +6,7 @@
 
         <!-- CARD ONE -->
         <div class="card">
-            <div class="project-img"><img src="/portfolio/images/search image.jpg" alt="Project image" srcset=""type="image/png"></div>
+            <div class="project-img"><img src="\portfolio\Images\Designs\Mpesa\wireframe.svg" alt="Project image" srcset=""type="image/svg"></div>
            <div class="more">
                 <div class="name">Project Name</div>
                 <div class="cta-projects">

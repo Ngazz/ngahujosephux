@@ -79,7 +79,7 @@
         <div class="user-journey"><img src="/portfolio/images/journey map.svg" alt="user-journey" type="image/svg"></div>
         <div class="persona"><img src="/portfolio/images/persona.svg" alt="persona-profile"></div>
         <div class="site-flow"><img src="/portfolio/images/siteFlow.svg" alt="site-flow" srcset=""></div>
-        <div class="wire-frame"><img src="/portfolio/images/wireframe.svg" alt="wire-frame" srcset=""></div>
+        <div class="wire-frame"><img src="\portfolio\Images\Designs\Mpesa\wireframe.svg" alt="wire-frame" srcset=""></div>
     </div>
 
     <div class="container">
@@ -113,7 +113,7 @@
         </div>
         <h1>Thank You</h1>
         <p>You have reached the End!</p>
-        <button class="back-top" style="margin-bottom: 4rem;"><a href="mpesa.php"><img src="" alt="back-to-top" srcset="">Back to Top</a></button>
+        <button class="secondary-cta" style="margin-bottom: 4rem;"><a href="mpesa.php"><img src="\portfolio\Images\arrow-right.svg" alt="back-to-top" srcset="">Back to Top</a></button>
     </div>
 </body>
 </html>
