@@ -1,5 +1,35 @@
+@import url(../styles/universal.css);
 .case-study-hero {
-  margin-top: 6em;
+  margin-top: 8em;
+}
+
+i {
+  font-size: 0.75rem;
+}
+
+img {
+  height: 75vh;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+body,
+p {
+  color: rgba(204, 204, 204, 0.8);
+  font-family: cursive;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+h1,
+h2 {
+  color: #f9f9f9;
+}
+
+blockquote {
+  font-family: cursive;
+  line-height: 1.5;
+  font-weight: 300;
 }
 
 .role ul {
@@ -9,11 +39,6 @@
   gap: 8vw;
   list-style: square;
   padding: 0 2vw;
-}
-
-h1,
-h2 {
-  margin: 4em 0 0.5rem;
 }
 
 .social-icons {

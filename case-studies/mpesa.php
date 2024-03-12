@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/portfolio/styles/styles.css" type="text/css">
-    <link rel="stylesheet" href="/portfolio/styles/universal.css" type="text/css">
     <link rel="stylesheet" href="/portfolio/Case-studies/case-study-styles.css" type="text/css">
     <title>Case study</title>
 </head>
@@ -15,7 +13,7 @@
         <section class="case-study-hero">
             <div class="project-name">
                 <div class="name">
-                    DONOR 
+                   <h1> M-PESA Smart </h1>
                 </div>
                 <div class="case-study">Case Study</div>
             </div>
@@ -89,7 +87,31 @@
                 Recruited 8 participants and keenly monitored their journey in fulfilling some tasks.
                 This led to further improvement and settling on this design.
             </P>
-            <div class="findings"></div>
+            <div class="goals"><img src="" alt="" type="image/jpg"></div>
+            <div class="methodology">
+                <h1>
+                    Methodology
+                </h1>
+                <p>
+                    In person Testing; <br>
+                    15th-30th January 2024.
+                </p>
+            </div>
+            <h1>Participants Category</h1>
+            <ul>
+                <li>15 <span>yrs</span>- 20<span>yrs</span>=<strong>2</strong></li>
+                <li>21 <span>yrs</span>- 30<span>yrs</span>=<strong>4</strong></li>
+                <li>31 <span>yrs</span>- 40<span>yrs</span>=<strong>1</strong></li>
+                <li>Above 41 <span>yrs</span>=<strong>1</strong></li>
+            </ul>
+            <div class="findings">
+                <h1>Opportunity</h1>
+                <blockquote class="user-testing">
+                    "It gets boring to have to start again the process when the user makes a mistake;
+                    can there be a way to process & verify a transaction before inputing amount and authorization particulars (PIN or Fingerprint)?"
+                    &dash;<caption>Lucy.</caption><i>17-01-2024</i>
+                </blockquote>
+            </div>
         </div>
         <div class="design"><img src="" alt="design-image" srcset=""></div>
     </div>

@@ -62,6 +62,11 @@
   height: 1.25rem;
   border-radius: 50%;
 }
+.work-cards-section .card .more .cta-projects .case-study:hover {
+  background-color: #0b065f;
+  color: #e4dfdf;
+  border: 0.125rem solid #2f2f3e;
+}
 
 .see-more {
   align-items: center;

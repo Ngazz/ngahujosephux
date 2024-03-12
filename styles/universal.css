@@ -21,8 +21,10 @@ li {
   background-color: #121212;
   list-style-type: none;
   font-size: 1rem;
-  color: #e4dbdb;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  color: rgba(204, 204, 204, 0.8);
+  font-family: cursive;
+  line-height: 1.5;
+  font-weight: 300;
 }
 
 .primary-cta,
@@ -48,6 +50,16 @@ li {
   font-weight: 600;
 }
 
+.primary-cta:hover {
+  background-color: #020950;
+  color: #e4dbdb;
+}
+
+.secondary-cta:hover {
+  background-color: #160335;
+  color: #e4dbdb;
+}
+
 .nav-links a:hover {
   border-bottom: #e4dbdb solid 0.125rem;
 }
@@ -66,12 +78,6 @@ button {
   background: none;
 }
 
-img {
-  width: 100%;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
 button:hover {
   cursor: pointer;
 }
@@ -85,6 +91,7 @@ h2 {
   margin: 1rem 0;
   line-height: 1.4;
   text-rendering: optimizeLegibility;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 .social-icons {
