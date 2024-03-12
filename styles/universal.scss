@@ -137,7 +137,6 @@ p {
 
 .skills-section {
     width: 100%;
-    padding: 2.5rem 0;
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
@@ -155,6 +154,10 @@ p {
             align-items: center;
         }
     }
+}
+
+.skills {
+    padding: 2.5rem 0;
 }
 
 .contacts {
@@ -185,7 +188,7 @@ i {
 
 .hero {
     margin-top: 30vh;
-    height: 100lvh;
+    height: 75lvh;
     display: flex;
     flex-direction: column;
     gap: 10vh;
