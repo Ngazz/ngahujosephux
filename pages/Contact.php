@@ -18,8 +18,12 @@
 
         
             <!--  -->
-        <h2 class="contacts">Contact Me</h2>
+        <h2 class="contacts"> Let's Talk!</h2>
 
+         <p>I like to Talk. I like to engage with brilliant minds like yourself about how we can build
+             the next great project together. I'm just a call away!
+        </p>
+        
         <div class="contact-container">
             <div class="contact-info">
                 <p class="mode">Email:</p>

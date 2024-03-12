@@ -4,7 +4,7 @@
   gap: 10vh;
   display: flex;
   flex-direction: column;
-  height: 100lvh;
+  height: 85lvh;
 }
 .about-me .who-is-me {
   display: flex;
@@ -35,4 +35,41 @@
 .code-project-container .project-card .more {
   margin: 1rem 0;
   gap: 0.75rem;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: #121212;
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  width: 100%;
+  box-shadow: 4px 4px 5px 0px rgba(40, 38, 43, 0.5), -4px -4px 4px 0px rgba(40, 39, 43, 0.5);
+}
+.company .company-logo {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1.125rem;
+  font-weight: 500;
+  height: inherit;
+}
+.company .company-logo img {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+}
+.company .duration {
+  font-style: italic;
+  font-weight: 200;
+  color: #62617a;
+}
+
+.experience {
+  margin: 4rem 0;
+}
+.experience .experience-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
 }/*# sourceMappingURL=about.css.map */

@@ -18,8 +18,9 @@
                 Hello! I'm Ngahu
             </p>
            <div class="who-is-me">
-                  <h2>Product Designer,</h2>
-                <p class="location"><img src="/portfolio/images/" alt="location" type="image/svg">Eldoret, Kenya</p>
+                <h2>Product Designer,</h2>
+                <p class="location"><img src="/portfolio/images/" alt="location" type="image/svg"><strong>Eldoret, Kenya</strong></p>
+                <p style="font-style:oblique; font-weight:100;">Available for Remote or Relocation.</p>
            </div>
 
             <p> My Journey to Product Design is from a foundational background in Software Engineering.
@@ -67,23 +68,27 @@
 
                 <div class="company">
                     <div class="company-logo">
-                        <img src="" alt="IconsHub Kisii" type="image/svg">
+                        <img src="/portfolio/images/assets/IconsHub.png" alt="IconsHub Kisii" type="image/png">
+                    </div>
                         <div class="company-name">IconsHub Kisii</div>
                         <div class="duration">September 2022 - March 2023</div>
-                    </div>
+                        <div class="role">UX Designer</div>
                 </div>
 
                 <div class="company">
                     <div class="company-logo">
-                        <img src="" alt="IconsHub Kisii" type="image/svg">
+                        Denloy Inv. Ltd
+                    </div>
                         <div class="company-name">Denloy Investment Ltd</div>
                         <div class="duration">March 2023 - June 2023</div>
-                    </div>
+                        <div class="role">Senior Product Designer.</div>
                 </div>
             
             </div>
 
         </section>
+
+        
         <?php include('COMPONENTS/footer.php');?>
     </div>
 </body>
