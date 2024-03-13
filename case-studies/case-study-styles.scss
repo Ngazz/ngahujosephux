@@ -7,17 +7,17 @@ i {
     font-size: 0.75rem;
 }
 
-img {
-    height: 75vh;
-    width: fit-content;
-}
-
 body,
 p {
     color: #cccc;
     font-family: cursive;
     line-height: 1.5;
     font-weight: 300;
+}
+
+img {
+    width: 100%;
+    height: fit-content;
 }
 
 h1,
@@ -55,8 +55,8 @@ blockquote {
 }
 
 @media screen and (min-width:250px) and (max-width:375px) {
-    .image-section {
-        object-fit: cover;
+    body {
+        background-color: red;
     }
 }
 

@@ -7,18 +7,18 @@ i {
   font-size: 0.75rem;
 }
 
-img {
-  height: 75vh;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
 body,
 p {
   color: rgba(204, 204, 204, 0.8);
   font-family: cursive;
   line-height: 1.5;
   font-weight: 300;
+}
+
+img {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 h1,
@@ -52,8 +52,7 @@ blockquote {
 }
 
 @media screen and (min-width: 250px) and (max-width: 375px) {
-  .image-section {
-    -o-object-fit: cover;
-       object-fit: cover;
+  body {
+    background-color: red;
   }
 }/*# sourceMappingURL=case-study-styles.css.map */
