@@ -6,11 +6,11 @@
     <div class="container">
         <div class="nav-bar-items">
             <div class="logo">
-                <a href="\portfolio\pages\index.php"><img src="\portfolio\Images\logo.svg" alt="Logo" srcset="" type="image/svg"></a>
+                <a href="\portfolio\index.php"><img src="\portfolio\Images\logo.svg" alt="Logo" srcset="" type="image/svg"></a>
             </div>
 
                 <ul class="nav-links">
-                    <li><a href="\portfolio\pages\index.php" class="active"><span>00</span>Home</a></li>
+                    <li><a href="\portfolio\index.php" class="active"><span>00</span>Home</a></li>
                     <li><a href="\portfolio\pages\portfolio.php"><span>01</span>Work</a></li>
                     <li><a href="\portfolio\pages\About.php"><span>02</span>About Me</a></li>
                     <li><a href="\portfolio\pages\Contact.php"><span>03</span>Contacts</a></li>

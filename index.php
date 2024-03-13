@@ -8,15 +8,12 @@
     <link rel="icon" href="" type="image/svg">
     <link rel="stylesheet" href="/portfolio/styles/styles.css" type="text/css">
     <link rel="stylesheet" href="/portfolio/styles/universal.css" type="text/css">
-    <link rel="stylesheet" href="/portfolio/styles/Desktop/desktop.css" type="text/css">
-    <link rel="stylesheet" href="/portfolio/styles/Lscreens/Ldesktop.css" type="text/css">
     <title>Joseph Ngahu</title>
 </head>
-
 <body>
   <!-- Nav Bar -->
   <?php
-        include('COMPONENTS/navbar.php');
+        include('pages/COMPONENTS/navbar.php');
     ?>
     <div class="container">
       
@@ -37,7 +34,7 @@
 
 <!-- Work -->
         <?php 
-            include('work.php');
+            include('pages\work.php');
         ?>
 
 <!-- SKILLS -->
@@ -98,7 +95,7 @@
 
 <!-- Footer -->
         <?php
-            include('COMPONENTS/footer.php');
+            include('pages/COMPONENTS/footer.php');
         ?>
     </div>
 </body>
